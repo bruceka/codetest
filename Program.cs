@@ -42,6 +42,7 @@ app.MapGet("/weatherforecast", () =>
 app.Run();
 
 // Just adding a comment
+// Another comment
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary, string season)
 {
